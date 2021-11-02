@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* title css */
+.title-css{
+    font-size: 40px;
+    color: #222222;
+    font-family: montserrat,sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* subtitle css*/
+.subtitle-css{
+    text-align: center;
+    font-size: 16px;
+    color: #777777;
+    font-family: droid-serif, serif;
+}
+
+/* clear:both class*/
+.clear-both{
+    clear: both;
+}
+/* CONTAINER CSS */
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+/* HEADADER CSS */
+.header{
+    height: 700px;
+    width: 100%;
+    background: url("https://i.hizliresim.com/g5eansk.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header .container{
+    padding-top: 50px;
+}
+
+/* LOGO */
+.logo{
+    width: 50%;
+    float: left;
+    height: 60px;
+}
+.logo span{
+    font-size: 26px;
+    color: #fed136;
+    font-family: 'Wisdom Script', sans-serif;
+}
+
+/* NAV */
+.nav{
+    height: 60px;
+    width: 50%;
+    float: left;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 13px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+.header .container h3{
+    font-size: 31px;
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    font-family: droid-serif, serif;
+    font-weight: 400;
+    margin-top: 174px;
+}
+
+.header .container h1{
+    color: #ffffff;
+    margin-top: 21px;
+    text-align: center;
+    font-size: 60px;
+    font-family: montserrat,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.more{
+    height: 65px;
+    width: 240px;
+    border-radius: 4px;
+    background: #fed136;
+    outline: none;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    margin-top: 32px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: montserrat,sans-serif;
+}
+.more:hover{
+    cursor: pointer;
+}
+
+/* SERVICES */
+.services{
+    height: 568px;
+    width: 100%;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.services-content{
+    display: flex;
+    margin-top: 52px;
+    justify-content: space-around;
+}
+.services-content div{
+    width: 252px;
+}
+.services-content h1{
+    color: #222222;
+    margin-top: 24px;
+    font-size: 18px;
+    font-family: montserrat,sans-serif;
+    font-weight: bold;
+}
+.services-content p{
+    font-size: 14px;
+    margin-top: 16px;
+    color: #777777;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* PORTFOLIO */
+.portfolio{
+    height: 1218px;
+    width: 100%;
+    background: #f7f7f7;
+}
+.portfolio .container{
+    padding: 120px 0px;
+}
+.portfolio h1, .portfolio h3{
+    text-align: center;
+}
+.portfolio-subtitle{
+    padding-bottom: 80px;
+}
+.jobs{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 940px;
+    height: 836px;
+    justify-content: space-between;
+    align-content: space-between;
+    
+}
+.jobs h1{
+    margin-top: 20px;
+    font-family: montserrat,sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+}
+.jobs h3{
+    color: #737373;
+    font-size: 14px;
+    font-style: italic;
+    font-family: droid-serif, serif;
+}
+.jobs img{
+    width: 100%;
+    height: 300px;
+}
+.job{
+    height: 393px;
+    width: 290px;
+    background: #ffffff;
+}
+
+/* ABOUT US*/
+.about-us{
+    height: 1666px;
+    width: 100%;
+    background: #ffffff;
+}
+.about-us .container{
+    padding: 120px 0;
+}
+.about-us-entry{
+    margin: 0 auto;
+    width: fit-content;
+    text-align: center;
+}
+.july2010, .december2012, .january2011, .february2014{
+    width: 59%;
+    clear: both;
+    height: 168px;
+}
+.timeline{
+    margin-top: 78px;
+}
+.timeline h1{
+    font-size: 18px;
+    color: #222222;
+    font-family: montserrat,sans-serif;
+    font-weight: bold;
+}
+.timeline p{
+    font-size: 14px;
+    color: #777777;
+    font-family: 'Roboto Slab', serif;
+}
+.connection-line{
+    margin: 0 auto !important;
+    height: 93px !important;
+    width: 2px !important;
+    background: #f1f1f1 !important;
+}
+.july2010, .december2012{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+.january2011, .february2014{
+    display: flex;
+    justify-content: flex-start;
+}
+.january2011{
+    float: right;
+}
+.february2014{
+    float: right;
+}
+.continues{
+    background: red;
+    margin: 0 auto;
+}
+.timeline img{
+    height: 168px;
+    width: 168px;
+    border-radius: 50%;
+    border: 7px solid #f1f1f1;
+    float: right;
+}
+.january-content, .february-content{
+    width: 255px;
+    height: 168px;
+    margin-left: 40px;
+}
+.july-content, .december-content{
+    width: 255px;
+    height: 168px;
+    margin-right: 40px;
+}
+.continues{
+    height: 168px;
+    width: 168px;
+    border: 7px solid #f1f1f1;
+    border-radius: 50%;
+    text-align: center;
+    white-space: pre-line;
+    line-height: 26px;
+    font-size: 18px;
+    background: #fed136;
+    color: white;
+    font-family: montserrat,sans-serif;
+    font-weight: bold;
+}
+
+/* TEAM */
+.team{
+    height: 818px;
+    background: #f9f9f9;
+    width: 100%;
+    padding-top: 120px;
+}
+.team-entry{
+    margin: 0 auto;
+    width: fit-content;
+    height: auto;
+    text-align: center;
+    margin-bottom: 87px;
+}
+.persons{
+    display: flex;
+    justify-content: space-around;
+    height: 343px;
+    width: 100%;
+}
+.person{
+    width: 234px;
+    height: 343px;
+    text-align: center;
+    border-radius: 50%;
+}
+.person img{
+    height: 220px;
+    width: 220px;
+    background: black;
+    border-radius: 50%;
+}
+.person-name{
+    margin-top: 26px;
+    font-size: 16px;
+    color: #222222;
+}
+.person-mission{
+    font-size: 14px;
+    color: #777777;
+}
+.person-social-media{
+    width: 140px;
+    height: fit-content;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.person-social-media-logo{
+    border-radius: 50%;
+    margin-top: 10px;
+    height: 36px;
+    width: 36px;
+    border: 4px solid black;
+    color: #222222;
+    font-size: 18px;
+    line-height: 28px;
+    cursor: pointer;
+}
+.person-twitter:hover{
+    background: #00aced;
+    color: white;
+    border: 4px solid #00aced;
+}
+.person-facebook:hover{
+    background: #3b5998;
+    color: white;
+    border: 4px solid #3b5998;
+}
+.person-pinterest:hover{
+    background: #cb2028;
+    color: white;
+    border: 4px solid #cb2028;
+}
+.person-google:hover{
+    background: #d95232;
+    color: white;
+    border: 4px solid #d95232;
+}
+
+.team-discription{
+    font-size: 16px;
+    color: #777777;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* brand-logos */
+.brand-logos{
+    height: 165px;
+    width: 100%;
+}
+.brand-logos .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 165px;
+}
+
+/* footer */
+.footer{
+    height: 765px;
+    width: 100%;
+}
+.form-head{
+    padding-top: 110px;
+    color: white;
+}
+.contact-form{
+    height: 675px;
+    width: 100%;
+    background: #222222;
+    position: relative;
+}
+.form{
+    height: 315px;
+    margin-top: 30px;
+}
+.form-left{
+    width: 455px;
+    height: 212px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: left;
+}
+.form-left input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 20px;
+    height: 50px;
+    width: 440px;
+}
+.form-right{
+    width: 455px;
+    height: 212px;
+    float: left;
+}
+.form-right textarea{
+    height: 212px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 20px;
+    float: right;
+    width: 440px;
+}
+footer ::placeholder{
+    color: #bbbbbb;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.send input{
+    background: #fed136;
+    height: 65px;
+    width: 240px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: montserrat,sans-serif;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.map{
+    width: 45%;
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    height: 555px;
+}
+.bottom{
+    height: 90px;
+    width: 100%;
+}
+.bottom{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+}
+.copyright{
+    color: #555555;
+    font-size: 14px;
+    font-family: montserrat,sans-serif;
+}
+.bottom-logos i{
+    color: white;
+    background: #222222;
+    border: 5px solid #222222;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+}
